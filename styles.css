@@ -171,7 +171,7 @@ highlight {
 }
 
 .highlight-word {
-    background-color:   #219ebc ; /* Highlight color */
+    background-color:  skyblue ; /* Highlight color */
     transition: background-color 2.0s ease;
 }
 
@@ -186,6 +186,10 @@ highlight {
     font-size: 2.5rem;
 }
 
+#projects p {
+    font-family: "Montserrat", sans-serif
+}
+
 #projects {
     background-color: #fff;
     padding: 4rem 1rem;
@@ -198,7 +202,7 @@ highlight {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -403,9 +407,38 @@ footer {
     padding: 1rem 0;
     width: 100%;
     bottom: 0;
-    clear: both;
+
 }
 
 .hidden {
     display: none;
 }
+.project-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.game-iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-game h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.project-game p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
